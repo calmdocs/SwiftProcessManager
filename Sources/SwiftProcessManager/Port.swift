@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-#if os(macOS)
-
 public func RandomOpenPort(_ range: Range<Int>) -> Int {
     var port = Int.random(in: range)
     while !IsOpenPort(port){
@@ -43,5 +41,3 @@ public func IsOpenPort(_ port: Int) -> Bool {
     Darwin.close(socketFileDescriptor)
     return isOpen
 }
-
-#endif

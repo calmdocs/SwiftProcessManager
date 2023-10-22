@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-#if os(macOS)
-
 /// Return the macOS system architecture.
 /// - Returns: The system architecture as a string (e.g. "arm64").
 public func SystemArchitecture() -> String {
@@ -28,5 +26,3 @@ extension utsname {
         sMachine == "arm64"
     }
 }
-
-#endif

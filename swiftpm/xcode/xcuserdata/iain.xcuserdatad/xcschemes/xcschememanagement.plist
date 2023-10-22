@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SwiftProcess.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 		<key>SwiftProcessManager.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SwiftProcessManager2-Package.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +22,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>SwiftProcessManager</key>
+		<key>SwiftProcess</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>SwiftProcessManagerTests</key>
+		<key>SwiftProcessTests</key>
 		<dict>
 			<key>primary</key>
 			<true/>
